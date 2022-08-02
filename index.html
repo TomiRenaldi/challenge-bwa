@@ -1,20 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resto Landing Page Design</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resto Landing Page Design</title>
 
 
-    <link rel="stylesheet" href="./css-external/bootstrap.min.css">
+  <link rel="stylesheet" href="./dist/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg mt-5">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 text-dark">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Category
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
 
-    <link rel="stylesheet" href="./style/style.css">
-  </head>
-  <body>
-    <div class="container">
-        <nav class="">
-            ss
-        </nav>
-    </div>
-  </body>
+        <a class="navbar-brand col-sm-2 mx-auto" href="#">
+          <img src="./images/logo-resto.png" alt="logo resto" width="110" height="34">
+        </a>
+
+        <form class="d-flex gap-2 col-sm-4 rounded-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search your favorite food" aria-label="Search">
+          <button class="btn btn-secondary btn-outline-light col-sm-3" type="submit">Log in</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+</body>
 </html>

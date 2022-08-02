@@ -1,8 +1,39 @@
-.container 
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+*
 {
-    position: absolute;
-    width: 56px;
-    height: 60px;
-    left: 60px;
-    top: 60px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav
+{
+    font-size: 13px;
+}
+
+.btn 
+{
+    font-size: 13px;
+    background: rgba(90, 79, 207, 0.1);
+    color: #5a4fcf;
+}
+
+.form-control
+{
+    font-size: 13px;
+    color: #858585;
 }
